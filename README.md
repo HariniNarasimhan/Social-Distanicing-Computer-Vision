@@ -14,7 +14,7 @@ and many more in the domain of surveillance.
  
 Person detection using YOLO detects the person and draws a bounding box around them giving the top left and bottom right coordinates of the boxes as shown here.
 
-![](images/image1.jpg)
+![](assets/image1.jpg)
 
 Using the coordinates extracted, the pixel distance between the two persons can be estimated. To get the depth information between persons is not just achieved by calculating a norm distance or euclidean distance between coordinates of the boxes. 
 While calculating distance, depth information by considering the referred object (targeted person)as one side of a cuboid and other objects (other person in the area) as the other side of the cuboid. For each pair, three different distances are calculated as the depth differs on every side of the cuboid (due to inequality on the sides of the cuboid).
@@ -25,7 +25,7 @@ https://github.com/nianticlabs/monodepth2/
 
 A sample information of depth is given by the below image. The person with same color code are in same depth and different color code are farway
 
-![](images/res1.png)
+![](assets/res1.png)
 
 If a person has not maintained the social distance even with one another person is tagged as “NO SD” (No Social Distance). This algorithm has tested only with long view cameras and has proved to work well.
  
