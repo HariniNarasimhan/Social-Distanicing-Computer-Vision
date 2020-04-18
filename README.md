@@ -34,7 +34,7 @@ If a person has not maintained the social distance even with one another person 
 Further improvisation can be employed to scale the implementation between all the CCTV cameras in a region. And can provide the combined result of a particular region
 
 ### To run:
-1. Yo need a trained model to detect depth information that I have trained based on KITT dataset (with guidance in https://github.com/nianticlabs/monodepth2/)
+1. Yo need a trained model to detect depth information that I have trained based on KITT dataset (with guidance in https://github.com/nianticlabs/monodepth2/) -(I have trained te model, you can also use the repository by nianticlabs for a trained model)
 2. With a test video you can run the file 
 ```
 python test_social_distance.py --video_path test_video.mp4 
